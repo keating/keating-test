@@ -20,15 +20,15 @@ https://github.com/keating/keating-test
 
 There are some approaches for the third task,
 
-1.
+(1)
 
 > The default transaction isolation level for postgresql is read committed, but we can change it to read repeatable. So we will not need any lock.
 
-2.
+(2)
 
 > Pessimistic Locking
 
-3.
+(3)
 
 > Optimistic Locking
 
