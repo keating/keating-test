@@ -1,28 +1,15 @@
-== README
+== Keating-Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**1**
+Because I use `Thread` to test the with method of payment.rb
 
-Things you may want to cover:
+So we should change the configuration in spec_helper.rb
+```
+config.use_transactional_fixtures = false
+```
+This is very important, otherwise the tests with thread will not be passed.
 
-* Ruby version
+**2**
+I have uploaded the whole project to
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+https://github.com/keating/keating-test
