@@ -1,4 +1,4 @@
-== Keating-Test
+
 
 **1**
 Because I use `Thread` to test the with method of payment.rb
